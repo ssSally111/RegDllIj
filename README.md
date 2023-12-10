@@ -6,11 +6,11 @@
 
 1.以管理员身份运行 CMD
 
-2.运行 `.\RegDllIj.exe C:\Users\ab\Desktop\TipsX86.dll` 注入 TipsX86.dll
+2.运行 `.\RegDllIj.exe C:\Users\ab\Desktop\TipsX64.dll` 注入 TipsX64.dll
 
 3.运行 notepad
 
-4.使用 Dbgview 查看输出 “Tips.dll ATTACH” 或 使用 procexp 查看记事本进程是否加载TipsX86.dll
+4.使用 Dbgview 查看输出 “Tips.dll ATTACH” 或 使用 procexp 查看记事本进程是否加载TipsX64.dll
 
 5.运行 `.\RegDllIj.exe` 重置注册表
 
